@@ -162,4 +162,10 @@ if st.button("Analisis Sentimen"):
         st.warning("Mohon masukkan teks ulasan untuk dianalisis terlebih dahulu.")
 
 st.markdown("---")
-st.markdown("Dibuat dengan ❤️ untuk analisis sentimen ulasan aplikasi.")
+st.markdown(
+    """
+    *Aplikasi ini dikembangkan untuk demonstrasi analisis sentimen ulasan.*
+    *Menggunakan Model Klasifikasi Naive Bayes dengan Framework Streamlit.*
+    *Pengembang: M. Robi Firmansyah*
+    """
+)
